@@ -1,0 +1,13 @@
+.zutabean {
+	display: flex;
+	flex-flow: column;
+	gap: 10px;
+	width: fit-content;
+}
+
+.errenkada {
+	display: flex;
+	flex-flow: row;
+	gap: 5px;
+	width: fit-content;
+}

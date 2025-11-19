@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>Formularioa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form action="parametroak_batu.php" method="post" target="_blank">
+
+        <div class="zutabean">
+
+            <label>Izena:
+                <input type="text" name="form_izena" id="izena">
+            </label>
+
+
+            <label>Urteak:
+                <input type="number" name="form_urteak" id="urteak">
+            </label>
+
+            <div class="zutabean">
+                <span>Gustuko fruta:</span>
+
+                <div class="errenkadan">
+                    <label>
+                        <input type="radio" name="form_gustoko_futa" value="madaria">Madaria
+                    </label>
+                    <label>
+                        <input type="radio" name="form_gustoko_futa" value="sagarra">Sagarra
+                    </label>
+                    <label>
+                        <input type="radio" name="form_gustoko_futa" value="mailukia">Mailukia
+                    </label>
+                </div>
+
+            </div>
+            <div class="zutabean">
+                <span>Gustuko koloreak</span>
+
+                <div class="errenkadan">
+                    <label>
+                        <input type="checkbox" name="form_gustoko_koloreak[]" value="gorria">Gorria
+                    </label>
+                    <label>
+                        <input type="checkbox" name="form_gustoko_koloreak[]" value="urdina">Urdina
+                    </label>
+                    <label>
+                        <input type="checkbox" name="form_gustoko_koloreak[]" value="zuria">Zuria
+                    </label>
+                </div>
+
+            </div>
+            <button type="submit">Bidali</button>
+
+        </div>
+    </form>
+</body>
+
+</html>
